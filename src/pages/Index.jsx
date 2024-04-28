@@ -1,6 +1,6 @@
 import { Box, VStack, Input, Button, Text, Image, useToast } from '@chakra-ui/react';
 import { useState, useEffect } from 'react';
-import { getClient } from '../lib/crud';
+import { getClient } from '../../lib/crud';
 
 const Index = () => {
   const [tweets, setTweets] = useState([]);
